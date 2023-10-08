@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: box-border;
+    
+    
+}
+
+@media screen and (max-width: 720px){
+    .bigimage{
+        background-size: cover;
+    }
+    
+}
+
+
+
+.bigimage{
+    height: 720px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 35%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url("netflix-source-image.jpg");
+    background-size: cover;
+    position: relative;
+    
+    
+    
+    
+    
+
+}
+
+
+
+
+
+.logo{
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    z-index: 150;
+}
+.select{
+    display: flex;
+    position: relative;
+    left: 1100px;
+    top: 33px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+.fa-solid fa-globe{
+    color: white;
+}
+.signin{
+    width: 80px;
+    height: 32px;
+    background-color: #E50914;
+    border-radius: 5px;
+    position: relative;
+    top: 0px;
+    left: 1200px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section-break{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(53, 50, 50);
+    
+}
+
+.matter{
+    position: relative;
+    width: 950px;
+    height: 250px;
+    
+    top: 220px;
+    left: 390px;
+}
+.matter .watch{
+    position: relative;
+    left: 220px;
+    font-weight: 700;
+}
+.matter .watc{
+    position: relative;
+    left: 100px;
+}
+.get-started{
+    display: flex;
+}
+
+.netflix-search{
+    height: 55px;
+    width: 340px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    margin-top: 25px;
+    margin-left: 125px;
+    border-radius: 5px;
+    
+    font-weight: 700;
+}
+.netflix-search ::placeholder{
+    opacity: 1;
+    color: white;
+
+}
+.button-get{
+    width: 180px;
+    height: 55px;
+    background-color: #E50914;
+    border-radius: 5px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+   
+
+}
+.second-section img{
+    height: 355px;
+    width: 500px;
+    background-size: cover;
+    margin-left: 150px;
+}
+.second-matter{
+    height: 200px;
+    width: 450px;
+    margin-left: 180px;
+}
+.third-section{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    
+
+}
+.third-matter{
+    height: 300px;
+    width: 520px;
+    margin-left: 50px;
+    position: relative;
+    top: 65px;
+}
+.third-section img{
+    height: 355px;
+    width: 500px;
+    background-size: cover;
+    margin-left: 200px;
+}
+.fourth-section{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    
+
+}
+.fourth-section img{
+    height: 355px;
+    width: 500px;
+    background-size: cover;
+    margin-left: 150px;
+}
+.fourth-matter{
+    height: 200px;
+    width: 450px;
+    margin-left: 180px;
+}
+
+.fifth-section{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    
+    overflow-y: hidden;
+    
+
+}
+.fifth-matter{
+    height: 450px;
+    width: 550px;
+    margin-left: 50px;
+    position: relative;
+    top: 150px;
+    position: relative;
+    top: 150px;
+}
+.fifth-section img{
+    height: 355px;
+    width: 520px;
+    background-size: cover;
+    margin-left: 200px;
+    
+}
+
+.freq{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    
+}
+.cards{
+    
+    position: relative;
+    top: 100px;
+    left: 190px;
+    
+    width: 1150px;
+    height: 80px;
+    background-color: rgb(53, 50, 50);
+    display: flex;
+    align-items: center;
+
+}
+.cards .plus{
+    position: absolute;
+    left: 1110px;
+    
+    
+}
+.again{
+    position: relative;
+    left: 360px;
+}
+
+.footer{
+    width: 100%;
+    height: 465px;
+    background-color: black;
+    
+}
+
+.links{
+    width: 1000px;
+    height: 201px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    justify-content: space-around;
+    margin: 0;
+    
+    
+}
+.links a{
+    color: white;
+    text-decoration: underline;
+    display: block;
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
+.first{
+    position: relative;
+    left: 150px;
+}
+
+.searchselect{
+    margin-top: 50px;
+    position: relative;
+    left: 190px;
+    height: 30px;
+}
